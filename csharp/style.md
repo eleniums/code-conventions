@@ -2,7 +2,7 @@
 
 ## Public Methods
 Use `PascalCase`:
-```
+```csharp
 public void SomePublicMethod(int someParameter)
 {
     ...
@@ -11,7 +11,7 @@ public void SomePublicMethod(int someParameter)
 
 ## Private Methods
 Use `PascalCase`:
-```
+```csharp
 private void SomePrivateMethod(int someParameter)
 {
     ...
@@ -20,32 +20,32 @@ private void SomePrivateMethod(int someParameter)
 
 ## Public Fields
 Use `PascalCase`:
-```
+```csharp
 public int SomePublicField = 1;
 ```
 
 ## Private Fields
 Use `camelCase`:
-```
+```csharp
 private int somePrivateField = 1;
 ```
 
 OR
-```
+
+Use `camelCase` with an underscore prefixed:
+```csharp
 private int _somePrivateField = 1;
 ```
 
-Use `camelCase` with an underscore prefixed:
-
 ## Local Variables
 Use `camelCase`:
-```
+```csharp
 int someLocalVariable = 1;
 ```
 
 ## Constant Variables
 Use `PascalCase`:
-```
+```csharp
 const int SomeConstant = 1;
 ```
 

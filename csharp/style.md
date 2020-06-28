@@ -41,12 +41,13 @@ private int _somePrivateField = 1;
 Use `camelCase`:
 ```csharp
 int someLocalVariable = 1;
+var someOtherLocalVariable = SomeMethod();
 ```
 
 ## Constant Variables
 Use `PascalCase`:
 ```csharp
-const int SomeConstant = 1;
+public const int SomeConstant = 1;
 ```
 
 ## References

@@ -5,6 +5,14 @@ Note:
 - `PascalCase` variables, functions, and structs are, by definition, exported from the package (public).
 - `camelCase` variables, functions, and structs are, by definition, not exported from the package (private).
 
+## Structs
+Use `PascalCase` (unless the struct is unexported):
+```go
+type SomeStruct struct {
+    // ...
+}
+```
+
 ## Public Methods
 Use `PascalCase` for method name and `camelCase` for parameters:
 ```go

@@ -11,7 +11,7 @@ class SomeClass:
 ## Public Methods
 Use `snake_case` for method name and `snake_case` for parameters:
 ```python
-def some_public_method(some_parameter)
+def some_public_method(some_parameter):
     # ...
 ```
 

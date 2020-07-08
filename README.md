@@ -6,3 +6,4 @@ The conventions detailed here are as close to the official recommendations as po
 ## Language Style Guides
 - [Go](https://github.com/eleniums/code-conventions/blob/master/go/style.md)
 - [C#](https://github.com/eleniums/code-conventions/blob/master/csharp/style.md)
+- [Python](https://github.com/eleniums/code-conventions/blob/master/python/style.md)

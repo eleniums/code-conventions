@@ -1,3 +1,5 @@
+// csc HelloWorld.cs && HelloWorld.exe
+
 using System;
 
 namespace HelloWorld

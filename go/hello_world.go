@@ -1,3 +1,5 @@
+// go run hello_world.go
+
 package main
 
 import (

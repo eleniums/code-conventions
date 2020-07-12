@@ -1,7 +1,7 @@
 # Go Style Guidelines
 The conventions detailed here are as close to the official recommendations as possible. As always, consistency within a project or organization is more important than rigid adherence to these conventions.
 
-Note:
+NOTE:
 - `PascalCase` variables, functions, and structs are, by definition, exported from the package (public).
 - `camelCase` variables, functions, and structs are, by definition, not exported from the package (private).
 

@@ -7,3 +7,4 @@ The conventions detailed here are as close to the official recommendations as po
 - [Go](https://github.com/eleniums/code-conventions/blob/master/go/style.md)
 - [C#](https://github.com/eleniums/code-conventions/blob/master/csharp/style.md)
 - [Python](https://github.com/eleniums/code-conventions/blob/master/python/style.md)
+- [Java](https://github.com/eleniums/code-conventions/blob/master/java/style.md)

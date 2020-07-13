@@ -1,4 +1,4 @@
-// csc HelloWorld.cs && HelloWorld.exe
+// csc HelloWorld.cs && ./HelloWorld.exe
 
 using System;
 

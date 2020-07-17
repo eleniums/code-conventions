@@ -18,7 +18,7 @@ public void somePublicMethod(int someParameter) {
 ```
 
 ## Private Methods
-Use `cascalCase` for method name and `camelCase` for parameters:
+Use `camelCase` for method name and `camelCase` for parameters:
 ```java
 private void somePrivateMethod(int someParameter) {
     // ...
@@ -73,7 +73,7 @@ Ignore casing of original words and use `PascalCase` or `camelCase` as appropria
 ## Brackets
 Use "Egyptian" brackets:
 ```java
-public void verticalBrackets(int someParameter) {
+public void egyptianBrackets(int someParameter) {
     // ...
 }
 ```

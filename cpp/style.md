@@ -1,7 +1,5 @@
 # C++ Style Guidelines
-The conventions detailed here are as close to the official recommendations as possible. As always, consistency within a project or organization is more important than rigid adherence to these conventions.
-
-// TODO: something about this being highly contentious and there being a bunch of different styles. Be consistent.
+The conventions detailed here are as close to the ISO C++ recommendations as possible. There are many accepted styles for C++ and not just one correct way of doing things. As always, consistency within a project or organization is more important than rigid adherence to these conventions.
 
 ## Classes
 Use `snake_case`:
@@ -115,8 +113,6 @@ bool foo(int bar)
     // ...
 }
 ```
-
-// TODO
 
 ## References
 - https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md

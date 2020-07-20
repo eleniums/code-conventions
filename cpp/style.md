@@ -67,10 +67,12 @@ Use all caps `snake_case`:
 ```
 
 ## Namespaces
-General rule for namespaces:
-`namespace`
-
-// TODO
+Use `snake_case`:
+```cpp
+namespace some_namespace {
+    // ...
+}
+```
 
 ## Abbreviations and acronyms
 Use `snake_case`:

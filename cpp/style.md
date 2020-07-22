@@ -81,14 +81,14 @@ Use `snake_case`:
 - `item_id`
 
 ## Brackets
-Use vertically aligned brackets for functions and "Egyptian" brackets for everything else (Stroustrup style):
+Use vertically aligned brackets for functions and "Egyptian" brackets for everything else (K&R style):
 ```cpp
 class egyptian_brackets_class {
     public:
         // ...
 };
 
-void vertical_brackets_function(int someParameter)
+void vertical_brackets_function(int some_parameter)
 {
     if (egyptian_brackets_statement) {
         // ...

@@ -1,77 +1,47 @@
 # C Style Guidelines
-The conventions detailed here are as close to the official recommendations as possible. There are many accepted styles for C and not just one correct way of doing things. As always, consistency within a project or organization is more important than rigid adherence to these conventions.
+The conventions detailed here are as close to the Linux Kernel recommendations as possible. There are many accepted styles for C and not just one correct way of doing things. As always, consistency within a project or organization is more important than rigid adherence to these conventions.
 
-## Classes
+## Structs
 Use `snake_case`:
-```cpp
-class some_class {
-    public:
-        // ...
+```c
+struct some_struct {
+    /* ... */
 };
 ```
 
-## Public Methods
+## Functions
 Use `snake_case` for method name and `snake_case` for parameters:
-```cpp
-void some_public_method(int some_parameter)
-{
-    // ...
+```c
+void some_public_method(int some_parameter) {
+    /* ... */
 }
-```
-
-## Private Methods
-Use `snake_case` for method name and `snake_case` for parameters:
-```cpp
-void some_private_method(int some_parameter)
-{
-    // ...
-}
-```
-
-## Public Fields
-Use `snake_case`:
-```cpp
-int some_public_field = 1;
-```
-
-## Private Fields
-Use `snake_case`:
-```cpp
-int some_private_field = 1;
-```
-
-OR
-
-Use `snake_case` with an underscore postfixed:
-```cpp
-int some_private_field_ = 1;
 ```
 
 ## Local Variables
 Use `snake_case`:
-```cpp
+```c
 int some_local_variable = 1;
 int some_other_local_variable = some_method();
 ```
 
 ## Constant Variables
-Use `snake_case`:
-```cpp
-const int some_constant = 1;
+Use all caps `snake_case`:
+```c
+const int SOME_CONSTANT = 1;
+```
+
+## Enums
+Use `snake_case` for enum name and all caps `snake_case` for enum values:
+```c
+enum some_enum {
+	SOME_ENUM_VALUE
+};
 ```
 
 ## Macros
 Use all caps `snake_case`:
-```cpp
+```c
 #define SOME_MACRO 1000
-```
-
-## Namespaces
-Use `snake_case`:
-```cpp
-namespace some_namespace {
-    // ...
-}
 ```
 
 ## Abbreviations and acronyms
@@ -81,40 +51,38 @@ Use `snake_case`:
 - `item_id`
 
 ## Brackets
-Use vertically aligned brackets for functions and "Egyptian" brackets for everything else (Stroustrup style):
-```cpp
-class egyptian_brackets_class {
-    public:
-        // ...
+Use vertically aligned brackets for functions and "Egyptian" brackets for everything else (K&R style):
+```c
+struct egyptian_brackets_struct {
+    /* ... */
 };
 
-void vertical_brackets_function(int someParameter)
+void vertical_brackets_function(int some_parameter)
 {
     if (egyptian_brackets_statement) {
-        // ...
+        /* ... */
     }
 }
 ```
 
 ## Comments
 Code comments should be formatted like so:
-```cpp
-// this is a code comment
+```c
+/* this is a code comment */
 ```
 
-Documentation comments should use the Doxygen format:
-```cpp
-/*! \brief Description of the method.
-    \param bar Description of parameter.
-    \return Description of return value.
-    
-    A longer description of the method if needed.
-*/
-bool foo(int bar)
-{
-    // ...
+Multi-line comments:
+```c
+/*
+ * Some very long description that
+ * spans multiple lines.
+ */
+bool foo(int bar) {
+    /* ... */
 }
 ```
 
 ## References
+- https://www.kernel.org/doc/html/v4.10/process/coding-style.html
+- https://developer.gnome.org/programming-guidelines/stable/c-coding-style.html.en
 - https://www.gnu.org/prep/standards/html_node/Writing-C.html

@@ -80,7 +80,21 @@ public interface IWriter
 
 ## Namespaces
 General rule for namespaces:
-`Company.Product|Technology.Feature.Subnamespace`
+```csharp
+namespace Company.Product
+{
+    // ...
+}
+```
+
+OR
+
+```csharp
+namespace Technology.Feature.Subnamespace
+{
+    // ...
+}
+```
 
 ## Abbreviations
 Capitalize acronyms that are two characters or fewer:

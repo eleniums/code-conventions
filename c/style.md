@@ -1,5 +1,5 @@
 # C Style Guidelines
-The conventions detailed here are as close to the Linux Kernel recommendations as possible. There are many accepted styles for C and not just one correct way of doing things. As always, consistency within a project or organization is more important than rigid adherence to these conventions.
+The conventions detailed here are as close as possible to the Linux Kernel recommendations. There are many accepted styles for C and not just one correct way of doing things. As always, consistency within a project or organization is more important than rigid adherence to these conventions.
 
 ## Structs
 Use `snake_case`:

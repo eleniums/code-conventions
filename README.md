@@ -1,7 +1,9 @@
 # Code Conventions
 Contains style guidelines and other code conventions for various languages in one convenient spot.
 
-The conventions detailed here are as close to the official recommendations as possible. As always, consistency within a project or organization is more important than rigid adherence to these conventions.
+The conventions detailed here are as close as possible to the official recommendations. As always, consistency within a project or organization is more important than rigid adherence to these conventions.
+
+**If you notice something is wrong or would like to dispute a style recommendation, please submit an issue.**
 
 ## Language Style Guides
 - [C](https://github.com/eleniums/code-conventions/blob/master/c/style.md)

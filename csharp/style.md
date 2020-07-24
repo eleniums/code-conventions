@@ -54,10 +54,19 @@ int someLocalVariable = 1;
 var someOtherLocalVariable = SomeMethod();
 ```
 
-## Constant Variables
+## Constants
 Use `PascalCase`:
 ```csharp
 public const int SomeConstant = 1;
+```
+
+## Enums
+Use `PascalCase` for enum name and `PascalCase` for enum values:
+```csharp
+enum SomeEnum
+{
+	SomeEnumValue
+}
 ```
 
 ## Interfaces
@@ -73,7 +82,7 @@ public interface IWriter
 General rule for namespaces:
 `Company.Product|Technology.Feature.Subnamespace`
 
-## Abbreviations and acronyms
+## Abbreviations
 Capitalize acronyms that are two characters or fewer:
 - `IOReader` or `ioReader`
 - `HtmlButton` or `htmlButton`
@@ -104,7 +113,7 @@ Documentation comments should use the xml format:
 /// </summary>
 /// <param name="bar">Description of parameter.</param>
 /// <returns>Description of return value.</returns>
-public bool Foo(int bar)
+public int foo(int bar)
 {
     // ...
 }

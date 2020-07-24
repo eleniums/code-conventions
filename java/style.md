@@ -44,10 +44,18 @@ int someLocalVariable = 1;
 int someOtherLocalVariable = SomeMethod();
 ```
 
-## Constant Variables
+## Constants
 Use all caps `SNAKE_CASE`:
 ```java
 public static final int SOME_CONSTANT = 1;
+```
+
+## Enums
+Use `PascalCase` for enum name and all caps `SNAKE_CASE` for enum values:
+```java
+public enum SomeEnum {
+	SOME_ENUM_VALUE
+}
 ```
 
 ## Interfaces
@@ -64,7 +72,7 @@ General rule for packages:
 
 NOTE: Package name should match directory structure.
 
-## Abbreviations and acronyms
+## Abbreviations
 Ignore casing of original words and use `PascalCase` or `camelCase` as appropriate:
 - `IoReader` or `ioReader`
 - `HtmlButton` or `htmlButton`
@@ -92,7 +100,7 @@ Documentation comments should use the Javadoc format:
 * @param bar Description of parameter.
 * @return Description of return value.
 */
-public bool foo(int bar) {
+public int foo(int bar) {
     // ...
 }
 ```

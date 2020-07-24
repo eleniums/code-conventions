@@ -54,14 +54,22 @@ int some_local_variable = 1;
 int some_other_local_variable = some_method();
 ```
 
-## Constant Variables
+## Constants
 Use `snake_case`:
 ```cpp
 const int some_constant = 1;
 ```
 
+## Enums
+Use `snake_case` for enum name and `snake_case` for enum values:
+```cpp
+enum some_enum {
+	some_enum_value
+};
+```
+
 ## Macros
-Use all caps `snake_case`:
+Use all caps `SNAKE_CASE`:
 ```cpp
 #define SOME_MACRO 1000
 ```
@@ -74,7 +82,7 @@ namespace some_namespace {
 }
 ```
 
-## Abbreviations and acronyms
+## Abbreviations
 Use `snake_case`:
 - `io_reader`
 - `html_button`
@@ -110,7 +118,7 @@ Documentation comments should use the Doxygen format:
     
     A longer description of the method if needed.
 */
-bool foo(int bar)
+int foo(int bar)
 {
     // ...
 }

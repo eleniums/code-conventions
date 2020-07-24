@@ -68,7 +68,9 @@ public interface Writer {
 
 ## Packages
 General rule for packages:
-`com.company.subpackage`
+```java
+package com.company.subpackage;
+```
 
 NOTE: Package name should match directory structure.
 

@@ -17,14 +17,14 @@ void some_public_method(int some_parameter) {
 }
 ```
 
-## Local Variables
+## Variables
 Use `snake_case`:
 ```c
 int some_local_variable = 1;
 int some_other_local_variable = some_method();
 ```
 
-## Constant Variables
+## Constants
 Use all caps `snake_case`:
 ```c
 const int SOME_CONSTANT = 1;
@@ -44,7 +44,7 @@ Use all caps `snake_case`:
 #define SOME_MACRO 1000
 ```
 
-## Abbreviations and acronyms
+## Abbreviations
 Use `snake_case`:
 - `io_reader`
 - `html_button`

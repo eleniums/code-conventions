@@ -48,7 +48,7 @@ someLocalVariable := 1
 someOtherLocalVariable := SomeMethod()
 ```
 
-## Constant Variables
+## Constants
 Use `PascalCase` or `camelCase`:
 ```go
 const SomePublicConstant = 1
@@ -69,7 +69,7 @@ Lowercase and, if possible, a single word:
 package foobar
 ```
 
-## Abbreviations and acronyms
+## Abbreviations
 Acronyms and initialisms should be all caps:
 - `IOReader` or `ioReader`
 - `HTMLButton` or `htmlButton`
@@ -96,7 +96,7 @@ Code comments should be formatted like so:
 Documentation comments should start with the variable, function, or struct name:
 ```go
 // Foo is a function that does something.
-func Foo(bar int) bool {
+func Foo(bar int) int {
     // ...
 }
 ```

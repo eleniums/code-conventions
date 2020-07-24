@@ -60,13 +60,13 @@ some_local_variable = 1
 some_other_local_variable = some_method()
 ```
 
-## Constant Variables
+## Constants
 Use all caps `SNAKE_CASE` (this is a convention as python does not have constants):
 ```python
 SOME_CONSTANT = 1
 ```
 
-## Abbreviations and acronyms
+## Abbreviations
 Capitalize acronyms if using `PascalCase`:
 - `IOReader` or `ioReader`
 - `HTMLButton` or `htmlButton`

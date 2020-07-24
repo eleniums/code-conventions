@@ -10,9 +10,9 @@ struct some_struct {
 ```
 
 ## Functions
-Use `snake_case` for method name and `snake_case` for parameters:
+Use `snake_case` for function name and `snake_case` for parameters:
 ```c
-void some_public_method(int some_parameter) {
+void some_function(int some_parameter) {
     /* ... */
 }
 ```
@@ -20,8 +20,8 @@ void some_public_method(int some_parameter) {
 ## Variables
 Use `snake_case`:
 ```c
-int some_local_variable = 1;
-int some_other_local_variable = some_method();
+int some_variable = 1;
+int some_other_variable = some_method();
 ```
 
 ## Constants
@@ -77,7 +77,7 @@ Multi-line comments:
  * Some very long description that
  * spans multiple lines.
  */
-bool foo(int bar) {
+int foo(int bar) {
     /* ... */
 }
 ```

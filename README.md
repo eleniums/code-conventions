@@ -14,3 +14,10 @@ The conventions detailed here are as close as possible to the official recommend
 - [JavaScript](https://github.com/eleniums/code-conventions/blob/master/javascript/style.md)
 - [Lua](https://github.com/eleniums/code-conventions/blob/master/lua/style.md)
 - [Python](https://github.com/eleniums/code-conventions/blob/master/python/style.md)
+
+## Case Styles
+Here are definitions for some common case styles that can be seen throughout these guides:
+- `PascalCase`: Capitalize first letter in all words.
+- `camelCase`: Capitalize first letter in all words except the first.
+- `snake_case`: All lowercase with underscores for spaces between words.
+- `kebab-case`: All lowercase with hyphens for spaces between words.

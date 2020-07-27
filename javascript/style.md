@@ -14,68 +14,48 @@ class SomeClass {
 
 ## Public Methods
 Use `camelCase` for method name and `camelCase` for parameters:
-```java
-public void somePublicMethod(int someParameter) {
-    // ...
+```javascript
+class SomeClass {
+    somePublicMethod(someParameter) {
+        // ...
+    }
 }
 ```
 
 ## Private Methods
-Use `camelCase` for method name and `camelCase` for parameters:
-```java
-private void somePrivateMethod(int someParameter) {
-    // ...
+Use `camelCase` for method name with a leading underscore and `camelCase` for parameters:
+```javascript
+class SomeClass {
+    _somePrivateMethod(someParameter) {
+        // ...
+    }
 }
 ```
 
 ## Public Fields
 Use `camelCase`:
-```java
-public int somePublicField = 1;
+```javascript
+this.somePublicField = 1;
 ```
 
 ## Private Fields
-Use `camelCase`:
-```java
-private int somePrivateField = 1;
+Use `camelCase` with a leading underscore:
+```javascript
+this._somePrivateField = 1;
 ```
 
 ## Local Variables
 Use `camelCase`:
-```java
-int someLocalVariable = 1;
-int someOtherLocalVariable = SomeMethod();
+```javascript
+let someLocalVariable = 1;
+let someOtherLocalVariable = someMethod();
 ```
 
 ## Constants
 Use all caps `SNAKE_CASE`:
-```java
-public static final int SOME_CONSTANT = 1;
+```javascript
+const SOME_CONSTANT = 1;
 ```
-
-## Enums
-Use `PascalCase` for enum name and all caps `SNAKE_CASE` for enum values:
-```java
-public enum SomeEnum {
-	SOME_ENUM_VALUE
-}
-```
-
-## Interfaces
-Use `PascalCase`:
-```java
-public interface Writer {
-    // ...
-}
-```
-
-## Packages
-General rule for packages:
-```java
-package com.company.subpackage;
-```
-
-NOTE: Package name should match directory structure.
 
 ## Abbreviations
 Ignore casing of original words and use `PascalCase` or `camelCase` as appropriate:
@@ -85,31 +65,30 @@ Ignore casing of original words and use `PascalCase` or `camelCase` as appropria
 
 ## Brackets
 Use "Egyptian" brackets:
-```java
-public void egyptianBrackets(int someParameter) {
+```javascript
+function egyptianBrackets(someParameter) {
     // ...
 }
 ```
 
 ## Comments
 Code comments should be formatted like so:
-```java
+```javascript
 // This is a code comment.
 ```
 
-Documentation comments should use the Javadoc format:
-```java
+Documentation comments should use the JSDoc format:
+```javascript
 /**
-* Description of the method.
-*
-* @param bar Description of parameter.
-* @return Description of return value.
-*/
-public int foo(int bar) {
+ * Description of the method.
+ * @param {string} bar Description of parameter.
+ * @returns {number} Description of return value.
+ */
+function foo(bar) {
     // ...
 }
 ```
 
 ## References
-- https://google.github.io/styleguide/jsguide.html
 - https://www.robinwieruch.de/javascript-naming-conventions
+- https://google.github.io/styleguide/jsguide.html

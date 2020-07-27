@@ -14,6 +14,7 @@ The conventions detailed here are as close as possible to the official recommend
 - [JavaScript](https://github.com/eleniums/code-conventions/blob/master/javascript/style.md)
 - [Lua](https://github.com/eleniums/code-conventions/blob/master/lua/style.md)
 - [Python](https://github.com/eleniums/code-conventions/blob/master/python/style.md)
+- [Rust](https://github.com/eleniums/code-conventions/blob/master/rust/style.md)
 
 ## Case Styles
 Here are definitions for some common case styles that can be seen throughout these guides:

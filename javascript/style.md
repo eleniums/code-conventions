@@ -32,16 +32,36 @@ class SomeClass {
 }
 ```
 
+NOTE: The underscore is a convention that does not enforce private scoping. In [ES2019](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/Private_class_fields), a hash prefix can be used to define a private method.
+```javascript
+class SomeClass {
+    #somePrivateMethod(someParameter) {
+        // ...
+    }
+}
+```
+
 ## Public Fields
 Use `camelCase`:
 ```javascript
-this.somePublicField = 1;
+class SomeClass {
+    somePublicField = 1;
+}
 ```
 
 ## Private Fields
 Use `camelCase` with a leading underscore:
 ```javascript
-this._somePrivateField = 1;
+class SomeClass {
+    _somePrivateField = 1;
+}
+```
+
+NOTE: The underscore is a convention that does not enforce private scoping. In [ES2019](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/Private_class_fields), a hash prefix can be used to define a private field.
+```javascript
+class SomeClass {
+    #somePrivateField = 1;
+}
 ```
 
 ## Local Variables

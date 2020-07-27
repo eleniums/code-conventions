@@ -41,7 +41,7 @@ private int somePrivateField = 1;
 Use `camelCase`:
 ```java
 int someLocalVariable = 1;
-int someOtherLocalVariable = SomeMethod();
+int someOtherLocalVariable = someMethod();
 ```
 
 ## Constants

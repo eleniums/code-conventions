@@ -11,4 +11,5 @@ The conventions detailed here are as close as possible to the official recommend
 - [C#](https://github.com/eleniums/code-conventions/blob/master/csharp/style.md)
 - [Go](https://github.com/eleniums/code-conventions/blob/master/go/style.md)
 - [Java](https://github.com/eleniums/code-conventions/blob/master/java/style.md)
+- [Lua](https://github.com/eleniums/code-conventions/blob/master/lua/style.md)
 - [Python](https://github.com/eleniums/code-conventions/blob/master/python/style.md)

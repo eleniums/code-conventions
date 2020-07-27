@@ -110,5 +110,6 @@ function foo(bar) {
 ```
 
 ## References
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference
 - https://www.robinwieruch.de/javascript-naming-conventions
 - https://google.github.io/styleguide/jsguide.html

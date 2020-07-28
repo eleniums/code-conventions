@@ -135,7 +135,7 @@ public int foo(int bar)
 
 ## References
 - https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/naming-guidelines
-- https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/
+- https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification
 - https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/inside-a-program/identifier-names
 - https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/inside-a-program/coding-conventions
 - https://github.com/ktaranov/naming-convention/blob/master/C%23%20Coding%20Standards%20and%20Naming%20Conventions.md

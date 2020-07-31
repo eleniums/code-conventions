@@ -1,11 +1,18 @@
 # Rust Style Guidelines
 The conventions detailed here are as close as possible to the official recommendations. As always, consistency within a project or organization is more important than rigid adherence to these conventions.
 
-## Classes
+## Structs
 Use `PascalCase`:
-```csharp
-public class SomeClass
-{
+```rust
+struct SomeStruct {
+    // ...
+}
+```
+
+## Functions
+Use `snake_case` for method name and `snake_case` for parameters:
+```rust
+fn some_function(some_parameter: i32) -> i32 {
     // ...
 }
 ```
@@ -106,10 +113,9 @@ Avoid abbreviations, but if necessary use `camelCase`:
 - `ItemId`
 
 ## Brackets
-Use vertically aligned brackets:
-```csharp
-public void VerticalBrackets(int someParameter)
-{
+Use "Egyptian" brackets:
+```rust
+fn egyptian_brackets(some_parameter: i32) {
     // ...
 }
 ```

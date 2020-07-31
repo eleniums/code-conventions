@@ -48,16 +48,16 @@ private int _somePrivateField = 1;
 ```
 
 ## Local Variables
-Use `camelCase`:
-```csharp
-int someLocalVariable = 1;
-var someOtherLocalVariable = SomeMethod();
+Use `snake_case`:
+```rust
+let some_local_variable = 1;
+let some_other_local_variable = some_method();
 ```
 
 ## Constants
-Use `PascalCase`:
-```csharp
-public const int SomeConstant = 1;
+Use all caps `SNAKE_CASE`:
+```rust
+const SOME_CONSTANT: i32 = 1;
 ```
 
 ## Enums

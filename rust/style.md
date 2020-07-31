@@ -69,9 +69,8 @@ const SOME_CONSTANT: i32 = 1;
 
 ## Enums
 Use `PascalCase` for enum name and `PascalCase` for enum values:
-```csharp
-enum SomeEnum
-{
+```rust
+enum SomeEnum {
 	SomeEnumValue
 }
 ```

@@ -121,19 +121,24 @@ fn egyptian_brackets(some_parameter: i32) {
 
 ## Comments
 Code comments should be formatted like so:
-```csharp
+```rust
 // This is a code comment.
 ```
 
-Documentation comments should use the xml format:
-```csharp
-/// <summary>
+Documentation comments should use triple slashes with the markdown format:
+```rust
 /// Description of the method.
-/// </summary>
-/// <param name="bar">Description of parameter.</param>
-/// <returns>Description of return value.</returns>
-public int foo(int bar)
-{
+/// 
+/// Add a more elaborate description here that can span multiple lines.
+/// 
+/// # Arguments
+/// 
+/// * `bar` - Description of parameter.
+/// 
+/// # Return value
+/// 
+/// Description of return value.
+fn foo(bar: i32) -> i32 {
     // ...
 }
 ```

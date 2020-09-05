@@ -18,41 +18,48 @@ fn some_function(some_parameter: i32) -> i32 {
 ```
 
 ## Public Methods
-Use `PascalCase` for method name and `camelCase` for parameters:
-```csharp
-public void SomePublicMethod(int someParameter)
-{
-    // ...
+Use `snake_case` for method name and `snake_case` for parameters:
+```rust
+impl SomeStruct {
+    pub fn some_public_method(&self, some_parameter: i32) {
+        // ...
+    }
 }
 ```
+
+NOTE: `pub` exposes the method outside of the module.
 
 ## Private Methods
-Use `PascalCase` for method name and `camelCase` for parameters:
-```csharp
-private void SomePrivateMethod(int someParameter)
-{
-    // ...
+Use `snake_case` for method name and `snake_case` for parameters:
+```rust
+impl SomeStruct {
+    fn some_private_method(&self, some_parameter: i32) {
+        // ...
+    }
 }
 ```
 
+NOTE: By default, methods and fields are only accessible to the module they belong to.
+
 ## Public Fields
-Use `PascalCase`:
-```csharp
-public int SomePublicField = 1;
+Use `snake_case`:
+```rust
+struct SomeStruct {
+    pub some_public_field: i32,
+}
 ```
+
+NOTE: `pub` exposes the field outside of the module.
 
 ## Private Fields
-Use `camelCase`:
-```csharp
-private int somePrivateField = 1;
+Use `snake_case`:
+```rust
+struct SomeStruct {
+    some_private_field: i32,
+}
 ```
 
-OR
-
-Use `camelCase` with an underscore prefixed:
-```csharp
-private int _somePrivateField = 1;
-```
+NOTE: By default, methods and fields are only accessible to the module they belong to.
 
 ## Local Variables
 Use `snake_case`:

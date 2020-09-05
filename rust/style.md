@@ -82,11 +82,10 @@ enum SomeEnum {
 }
 ```
 
-## Interfaces
-Interfaces should start with `I`:
-```csharp
-public interface IWriter
-{
+## Traits
+Use `PascalCase`:
+```rust
+trait SomeTrait {
     // ...
 }
 ```

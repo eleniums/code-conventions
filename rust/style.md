@@ -84,15 +84,6 @@ public interface IWriter
 }
 ```
 
-## Abbreviations
-Capitalize acronyms that are two characters or fewer:
-- `IOReader` or `ioReader`
-- `HtmlButton` or `htmlButton`
-
-Avoid abbreviations, but if necessary use `camelCase`:
-- `GetWin`
-- `ItemId`
-
 ## Brackets
 Use "Egyptian" brackets:
 ```rust

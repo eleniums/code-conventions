@@ -51,7 +51,7 @@ Code comments should be formatted like so:
 Documentation comments should use the LuaDoc format:
 ```lua
 --- Description of the method that fits in one line.
--- Add a more elaborate description here that can be multiple lines.
+-- Add a more elaborate description here that can span multiple lines.
 -- @param bar Description of parameter.
 -- @return Description of return value.
 function foo(bar)

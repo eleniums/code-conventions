@@ -32,7 +32,7 @@ class SomeClass {
 }
 ```
 
-NOTE: The underscore is a convention that does not enforce private scoping. In [ES2019](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/Private_class_fields), a hash prefix can be used to define a private method.
+NOTE: The underscore is a convention that does not enforce private scoping. In [ES2019](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/Private_class_fields), a hash prefix can be used to define a private method:
 ```javascript
 class SomeClass {
     #somePrivateMethod(someParameter) {
@@ -57,7 +57,7 @@ class SomeClass {
 }
 ```
 
-NOTE: The underscore is a convention that does not enforce private scoping. In [ES2019](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/Private_class_fields), a hash prefix can be used to define a private field.
+NOTE: The underscore is a convention that does not enforce private scoping. In [ES2019](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/Private_class_fields), a hash prefix can be used to define a private field:
 ```javascript
 class SomeClass {
     #somePrivateField = 1;

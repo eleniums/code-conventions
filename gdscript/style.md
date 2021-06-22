@@ -2,7 +2,7 @@
 The conventions detailed here are as close as possible to the official recommendations. As always, consistency within a project or organization is more important than rigid adherence to these conventions.
 
 ## Classes
-Use `PascalCase` (a file is a class, so this declaration is optional. Should save file as 'myclass.gd'):
+Use `PascalCase` (a file is a class, so this declaration is optional. Should save file as 'my_class.gd'):
 ```gdscript
 class_name MyClass
 ```

@@ -17,7 +17,7 @@ func some_function(some_parameter)
 ## Local Variables
 Use `snake_case`:
 ```gdscript
-int some_local_variable = 1
+var some_local_variable = 1
 ```
 
 ## Constants

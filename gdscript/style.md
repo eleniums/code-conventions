@@ -45,4 +45,5 @@ Code comments should be formatted like so:
 ```
 
 ## References
+- https://docs.godotengine.org/en/stable/getting_started/scripting/gdscript/gdscript_styleguide.html
 - https://docs.godotengine.org/en/stable/getting_started/scripting/gdscript/gdscript_basics.html#example-of-gdscript

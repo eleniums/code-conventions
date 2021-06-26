@@ -31,7 +31,7 @@ some_other_variable = some_method()
 ```
 
 ## Constants
-Use all caps `SNAKE_CASE` (this is a convention as lua does not have constants):
+Use `CONSTANT_CASE` (this is a convention as lua does not have constants):
 ```lua
 SOME_CONSTANT = 1
 ```

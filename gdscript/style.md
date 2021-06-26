@@ -21,13 +21,13 @@ var some_local_variable = 1
 ```
 
 ## Constants
-Use all caps `SNAKE_CASE`:
+Use `CONSTANT_CASE`:
 ```gdscript
 const SOME_CONSTANT = 1
 ```
 
 ## Enums
-Use `PascalCase` for enum name and all caps `SNAKE_CASE` for enum values:
+Use `PascalCase` for enum name and `CONSTANT_CASE` for enum values:
 ```gdscript
 enum SomeEnum {SOME_ENUM_VALUE}
 ```

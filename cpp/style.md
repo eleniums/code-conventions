@@ -69,7 +69,7 @@ enum some_enum {
 ```
 
 ## Macros
-Use all caps `SNAKE_CASE`:
+Use `CONSTANT_CASE`:
 ```cpp
 #define SOME_MACRO 1000
 ```

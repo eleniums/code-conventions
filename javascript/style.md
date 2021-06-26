@@ -72,7 +72,7 @@ let someOtherLocalVariable = someMethod();
 ```
 
 ## Constants
-Use all caps `SNAKE_CASE`:
+Use `CONSTANT_CASE`:
 ```javascript
 const SOME_CONSTANT = 1;
 ```

@@ -61,7 +61,7 @@ some_other_local_variable = some_method()
 ```
 
 ## Constants
-Use all caps `SNAKE_CASE` (this is a convention as python does not have constants):
+Use `CONSTANT_CASE` (this is a convention as python does not have constants):
 ```python
 SOME_CONSTANT = 1
 ```

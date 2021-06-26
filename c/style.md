@@ -25,13 +25,13 @@ int some_other_variable = some_method();
 ```
 
 ## Constants
-Use all caps `SNAKE_CASE`:
+Use `CONSTANT_CASE`:
 ```c
 const int SOME_CONSTANT = 1;
 ```
 
 ## Enums
-Use `snake_case` for enum name and all caps `SNAKE_CASE` for enum values:
+Use `snake_case` for enum name and `CONSTANT_CASE` for enum values:
 ```c
 enum some_enum {
 	SOME_ENUM_VALUE
@@ -39,7 +39,7 @@ enum some_enum {
 ```
 
 ## Macros
-Use all caps `SNAKE_CASE`:
+Use `CONSTANT_CASE`:
 ```c
 #define SOME_MACRO 1000
 ```

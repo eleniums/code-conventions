@@ -45,13 +45,13 @@ int someOtherLocalVariable = someMethod();
 ```
 
 ## Constants
-Use all caps `SNAKE_CASE`:
+Use `CONSTANT_CASE`:
 ```java
 public static final int SOME_CONSTANT = 1;
 ```
 
 ## Enums
-Use `PascalCase` for enum name and all caps `SNAKE_CASE` for enum values:
+Use `PascalCase` for enum name and `CONSTANT_CASE` for enum values:
 ```java
 public enum SomeEnum {
 	SOME_ENUM_VALUE

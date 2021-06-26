@@ -69,7 +69,7 @@ let some_other_local_variable = some_method();
 ```
 
 ## Constants
-Use all caps `SNAKE_CASE`:
+Use `CONSTANT_CASE`:
 ```rust
 const SOME_CONSTANT: i32 = 1;
 ```

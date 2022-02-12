@@ -2,10 +2,12 @@
 The conventions detailed here are as close as possible to the official recommendations. As always, consistency within a project or organization is more important than rigid adherence to these conventions.
 
 ## Classes
-Use `PascalCase` (a file is a class, so this declaration is optional. Should save file as 'my_class.gd', although saving the file as 'MyClass.gd' is also acceptable):
+Use `PascalCase`:
 ```gdscript
 class_name MyClass
 ```
+
+NOTE: A file is a class, so this declaration is optional. Should save file as 'my_class.gd', although saving the file as 'MyClass.gd' is also acceptable.
 
 ## Functions
 Use `snake_case` for function name and `snake_case` for parameters:

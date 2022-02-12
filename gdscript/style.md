@@ -2,7 +2,7 @@
 The conventions detailed here are as close as possible to the official recommendations. As always, consistency within a project or organization is more important than rigid adherence to these conventions.
 
 ## Classes
-Use `PascalCase` (a file is a class, so this declaration is optional. Should save file as 'my_class.gd'):
+Use `PascalCase` (a file is a class, so this declaration is optional. Should save file as 'my_class.gd', although saving the file as 'MyClass.gd' is also acceptable):
 ```gdscript
 class_name MyClass
 ```
@@ -14,11 +14,15 @@ func some_function(some_parameter)
     # ...
 ```
 
+NOTE: Prepend a single underscore (`_`) to virtual methods or private functions.
+
 ## Local Variables
 Use `snake_case`:
 ```gdscript
 var some_local_variable = 1
 ```
+
+NOTE: Prepend a single underscore (`_`) to private variables.
 
 ## Constants
 Use `CONSTANT_CASE`:

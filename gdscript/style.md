@@ -12,7 +12,7 @@ NOTE: A file is a class, so this declaration is optional. Should save file as 'm
 ## Functions
 Use `snake_case` for function name and `snake_case` for parameters:
 ```gdscript
-func some_function(some_parameter)
+func some_function(some_parameter):
     # ...
 ```
 
@@ -48,6 +48,13 @@ Use `snake_case`:
 Code comments should be formatted like so:
 ```gdscript
 # This is a code comment.
+```
+
+Documentation comments should start with a double `#`:
+```gdscript
+## Description of the function.
+func foo(bar):
+    # ...
 ```
 
 ## References

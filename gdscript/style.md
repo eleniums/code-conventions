@@ -60,3 +60,4 @@ func foo(bar):
 ## References
 - https://docs.godotengine.org/en/stable/getting_started/scripting/gdscript/gdscript_styleguide.html
 - https://docs.godotengine.org/en/stable/getting_started/scripting/gdscript/gdscript_basics.html#example-of-gdscript
+- https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/gdscript_documentation_comments.html

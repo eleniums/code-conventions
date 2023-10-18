@@ -35,7 +35,7 @@ const SOME_CONSTANT = 1
 ## Enums
 Use `PascalCase` for enum name and `CONSTANT_CASE` for enum values:
 ```gdscript
-enum SomeEnum {SOME_ENUM_VALUE}
+enum SomeEnum { SOME_ENUM_VALUE, ANOTHER_ENUM_VALUE }
 ```
 
 ## Abbreviations

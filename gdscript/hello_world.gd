@@ -1,6 +1,6 @@
 # godot -s hello_world.gd
 
-extends SceneTree
+class_name HelloWorld extends SceneTree
 
 func _init():
     print("Hello world!")

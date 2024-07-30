@@ -9,6 +9,7 @@ The conventions detailed here are as close as possible to the official recommend
 - [C](https://github.com/eleniums/code-conventions/blob/master/c/style.md)
 - [C++](https://github.com/eleniums/code-conventions/blob/master/cpp/style.md)
 - [C#](https://github.com/eleniums/code-conventions/blob/master/csharp/style.md)
+- [GDScript](https://github.com/eleniums/code-conventions/blob/master/gdscript/style.md)
 - [Go](https://github.com/eleniums/code-conventions/blob/master/go/style.md)
 - [Java](https://github.com/eleniums/code-conventions/blob/master/java/style.md)
 - [JavaScript](https://github.com/eleniums/code-conventions/blob/master/javascript/style.md)
